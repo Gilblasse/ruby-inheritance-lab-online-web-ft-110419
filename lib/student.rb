@@ -1,10 +1,10 @@
 class Student  < User
   
   def initialize
-    KNOWLEDGE = []
+    knowledge = []
   end
   
-  def learn(string)
-    KNOWLEDGE << 
+  def learn(new_knowledge)
+    knowledge << new_knowledge
   end
 end
