@@ -4,5 +4,7 @@ class Student  < User
     KNOWLEDGE = []
   end
   
-  E
+  def learn(string)
+    
+  end
 end
